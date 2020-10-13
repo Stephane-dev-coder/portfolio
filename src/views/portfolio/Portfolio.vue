@@ -4,7 +4,7 @@
             <v-list dense nav>
                 <v-list-item class="px-2">
                     <v-list-item-avatar>
-                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                        <v-img src="https://lh3.googleusercontent.com/lWusGQ9SbuhJF8IKCvkv_UC7qV5TvBDLj1CiqcrnAecsBeSs1ErTANEjPWAVQau6ZBY1O_xWUzVOArvs-9pQzSKfhTNovXTmbrFZSKgh5OIzUAvBaiIMHO1s-IOO2ViUhbzBmIlVxz60xZ_yWlzzj7eMi6vzAPWapOmhM5eRtaqEAYny41wXlNeTLlssS9bAD-LXHgKShH2hdzvdlFXk6KkSZ4GcRa-1bxTUhGFzvVlCJQNRe8n1Cfegh28v8iQ1SnM3aqCYOM7Yn0D5X9vh7MGxnUZg2s4TyDxV-2upBJOpa8_tz-YxNYZPCNSFsTQR7BlQKdOtKnN6H6sFN_-WST8RMxEZLa1RtM6XBtzZP5JPdrm0FhQY6oJS-MioIuNAI6w7qmT41H322uQc7Iedk5KKKLjwEWOa0_Lsk95xWXI442Bv-I0BSv_IfWccFH2UL_dMg_5b0uGhoLLOlEB_N9ESJ_MTWbk8zDuddzpM5R-exhFQj1wCxgvP9emLIoJvSeSlXF-5Vp2qxL_CTpf118gYovb2rSdZOmxVB5rMMcczibkjvmxpArqvdsiclfiv8xYjXtdHk2_NRGoGPGPDZ7Rr4Dzx7L1xzqAaNuyo38Hv8VM_7vgrhGhDeZN0IIBbmQsPgLlLxdK9qOVx-kGqRs1cqOx-KOMtLyfESuf1acbHdRJoY8NXEVErIJQ=w1260-h1680-no?authuser=1"></v-img>
                     </v-list-item-avatar>
 
                     <v-list-item-title>Stéphane Zayat</v-list-item-title>

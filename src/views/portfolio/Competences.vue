@@ -5,7 +5,7 @@
             <v-col cols="6" lg="4">
                 <span>Titre</span>
                 <ul>
-                    <li>comp</li>
+                    <li>comptence C01</li>
                     <li>comp</li>
                     <li>comp</li>
                     <li>comp</li>

@@ -8,7 +8,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" sm="8" md="6" lg="4">
-                <p>Trump Ipsum is calling for a total and complete shutdown of Muslim text entering your website. When other websites give you text, they’re not sending the best. They’re not sending you, they’re sending words that have lots of problems and they’re bringing those problems with us. They’re bringing mistakes. They’re bringing misspellings. They’re typists… And some, I assume, are good words. I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I know words. I have the best words.</p>
+                <p>L'informatique est un domaine qui evolue de jour en jour,chaque personne voulant travailler dans se domaine se doit d'avoir une veille sur l'actualité,personnelement j'utilise flipboard</p>
                 <v-row justify="end">
                     <v-btn color="red" text @click="flipboardLink">mon flipboard</v-btn>
                 </v-row>
@@ -21,7 +21,7 @@
 export default {
     methods: {
         flipboardLink() {
-            window.open('https://google.com')
+            window.open('https://flipboard.com/')
         }
     }
 }
