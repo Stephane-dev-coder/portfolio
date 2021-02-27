@@ -93,9 +93,10 @@ export default {
                 setTimeout(() => {
                     this.overlay = false
                     this.success = true
+                    this.$router.push('/myfootball')
                 }, 2000)
 
-                this.login()
+                
             } else {
                     this.error = true
             }

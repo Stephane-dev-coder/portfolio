@@ -19,47 +19,53 @@ const routes = [
 			import(/* webpackChunkName: "register" */ '../views/Register.vue'),
 	},
 	{
-		path: '/portfolio',
-		name: 'Portfolio',
+		path: '/myfootball',
+		name: 'myfootball',
 		component: () =>
-			import(/* webpackChunkName: "portfolio" */ '../views/portfolio/Portfolio.vue'),
+			import(/* webpackChunkName: "myfootball" */ '../views/myfootball/myfootball.vue'),
 		children: [
 			{
 				path: '',
-				alias: 'cv',
-				name: 'Cv',
+				alias : 'article',
+				name: 'arcticle',
 				component: () =>
-			import(/* webpackChunkName: "cv" */ '../views/portfolio/Cv.vue'),
+			import(/* webpackChunkName: "article" */ '../views/myfootball/article.vue'),
 			},
 			{
-				path: 'competences',
-				name: 'Competences',
+				path: 'contact',
+				name: 'contact',
 				component: () =>
-			import(/* webpackChunkName: "competences" */ '../views/portfolio/Competences.vue'),
+			import(/* webpackChunkName: "contact" */ '../views/myfootball/contact.vue'),
 			},
 			{
-				path: 'experience',
-				name: 'Experience',
+				path: 'hist',
+				name: 'hist',
 				component: () =>
-			import(/* webpackChunkName: "experience" */ '../views/portfolio/Experience.vue'),
+			import(/* webpackChunkName: "hist" */ '../views/myfootball/hist.vue'),
 			},
 			{
-				path: 'patrimoine',
-				name: 'Patrimoine',
+				path: 'regle',
+				name: 'regle',
 				component: () =>
-			import(/* webpackChunkName: "patrimoine" */ '../views/portfolio/Patrimoine.vue'),
+			import(/* webpackChunkName: "regle" */ '../views/myfootball/regle.vue'),
 			},
 			{
-				path: 'situation',
-				name: 'Situation',
+				path: 'coach',
+				name: 'coach',
 				component: () =>
-			import(/* webpackChunkName: "situation" */ '../views/portfolio/Situation.vue'),
+			import(/* webpackChunkName: "coach" */ '../views/myfootball/coach.vue'),
 			},
 			{
-				path: 'veille',
-				name: 'Veille',
+				path: 'cdm',
+				name: 'cdm',
 				component: () =>
-			import(/* webpackChunkName: "veille" */ '../views/portfolio/Veille.vue'),
+			import(/* webpackChunkName: "veille" */ '../views/myfootball/cdm.vue'),
+			},
+			{
+				path: 'lieu',
+				name: 'lieu',
+				component: () =>
+			import(/* webpackChunkName: "lieu" */ '../views/myfootball/lieu.vue'),
 			},
 		]
 	},
@@ -72,7 +78,7 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-	if((to.name === 'Portfolio' || to.name === 'Cv' || to.name === 'Competences' || to.name === 'Experience' || to.name === 'Patrimoine' || to.name === 'Situation' || to.name === 'Veille') && !store.getters.isAuthenticated) {
+	if((to.name === 'myfootball' || to.name === 'article' || to.name === 'contact' || to.name === 'hist' || to.name === 'regle' || to.name === 'coach' || to.name === 'cdm' || to.name === 'lieu') && !store.getters.isAuthenticated) {
 		next('/login')
 	} else {
 		next()
